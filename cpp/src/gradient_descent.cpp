@@ -41,7 +41,7 @@ class LinearRegression {
 };
 
 int main() {
-    std::vector<double>     x_train{1, 5, 4, 8, 2}, y_train{2, 10, 8, 16, 4};
+    std::vector<double>     x_train{1, 5, 4, 8, 2}, y_train{2, 11, 7, 16, 4};
     double                  weight = 0, learning_rate = 0.01;
     int                     iters = 50;
     LinearRegression model;
